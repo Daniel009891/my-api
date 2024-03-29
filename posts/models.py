@@ -38,6 +38,9 @@ class Post(models.Model):
     image = models.ImageField(
         upload_to='images/', default='../default_post_vqx2hv.jpg', blank=True
     )
+    image_filter = models.CharField(
+        max_length=32, choices=image_filter_choices, default='normal'
+    )
 
     class Meta:
         ordering = ['-created_at']
