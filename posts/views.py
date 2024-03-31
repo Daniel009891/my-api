@@ -38,3 +38,18 @@ class PostDetail(APIView):
     permission_classes = [IsOwnerOrReadOnly]
     serializer_class = PostSerializer
     
+
+    def get_object(self, pk):
+        try:
+            post = Post.objects.get(pk=pk)
+            self.check_object_permissions(self.request, post)
+            return post
+        except Post.DoesNotExist:
+            raise Http404
+
+    def get(self, request, pk):
+        post = self.get_object(pk)
+        serializer = PostSerializer(
+            post, context={'request': request}
+        )
+        return Response(serializer.data)
