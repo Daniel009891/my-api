@@ -6,4 +6,4 @@ Please note this is not a reflection on my mentor as I only had the initial plan
 
 ##  Credits 
 
-Much of the code in this was taken from the moments walkthrough as I was using this as a base for my project. I've unfortunately not had time to implement any custom code at this point.
+Much of the code in this was taken from the moments walkthrough as I was using this as a base for my project. I've unfortunately not had time to implement any custom code at this point. Comments will be added to code to state which is custom and which is borrowed on completion.
