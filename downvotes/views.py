@@ -17,4 +17,3 @@ class DownVoteDetail(generics.RetrieveDestroyAPIView):
     permission_classes = [IsOwnerOrReadOnly]
     serializer_class = DownVoteSerializer
     queryset = DownVote.objects.all()
-    
