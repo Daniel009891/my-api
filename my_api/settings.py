@@ -63,7 +63,7 @@ DEBUG = 'DEV' in os.environ
 
 
 ALLOWED_HOSTS = [
-    os.environ.get('ALLOWED_HOST'), 
+    os.environ.get('ALLOWED_HOST'),
     'localhost',
     '8000-daniel009891-myapi-whiw0cv5y9y.ws-eu111.gitpod.io'
 ]
@@ -161,7 +161,6 @@ else:
     DATABASES = {
         'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
     }
-    
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators

@@ -1,3 +1,7 @@
-from django.shortcuts import render
+from rest_framework import generics, permissions
+from my_api.permissions import IsOwnerOrReadOnly
+from downvotes.models import DownVote
 
-# Create your views here.
+
+class DownVoteList(generics.ListCreateAPIView):
+    permission_classes = [permissions.IsAuthenticatedOrReadOnly]
