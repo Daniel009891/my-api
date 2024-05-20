@@ -2,6 +2,7 @@ from rest_framework import serializers
 from posts.models import Post
 from likes.models import Like
 from downvotes.models import DownVote
+from saved.models import Saved
 
 
 class PostSerializer(serializers.ModelSerializer):
@@ -14,6 +15,8 @@ class PostSerializer(serializers.ModelSerializer):
     comments_count = serializers.ReadOnlyField()
     downvote_id = serializers.SerializerMethodField()
     downvotes_count = serializers.ReadOnlyField()
+    saved_id = serializers.SerializerMethodField()
+    save_count = serializers.ReadOnlyField()
 
     def validate_image(self, value):
         if value.size > 2 * 1024 * 1024:
