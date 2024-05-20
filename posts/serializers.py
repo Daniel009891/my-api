@@ -16,7 +16,7 @@ class PostSerializer(serializers.ModelSerializer):
     downvote_id = serializers.SerializerMethodField()
     downvotes_count = serializers.ReadOnlyField()
     saved_id = serializers.SerializerMethodField()
-    save_count = serializers.ReadOnlyField()
+    saved_count = serializers.ReadOnlyField()
 
     def validate_image(self, value):
         if value.size > 2 * 1024 * 1024:
@@ -61,7 +61,7 @@ class PostSerializer(serializers.ModelSerializer):
             saved = Saved.objects.filter(
                 owner=user, post=obj
             ).first()
-            return save.id if saved else None
+            return saved.id if saved else None
         return None
 
     class Meta:
