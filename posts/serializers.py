@@ -55,11 +55,21 @@ class PostSerializer(serializers.ModelSerializer):
             return downvote.id if downvote else None
         return None
 
+    def get_saved_id(self, obj):
+        user = self.context['request'].user
+        if user.is_authenticated:
+            saved = Saved.objects.filter(
+                owner=user, post=obj
+            ).first()
+            return save.id if saved else None
+        return None
+
     class Meta:
         model = Post
         fields = [
             'id', 'owner', 'is_owner', 'profile_id',
             'profile_image', 'created_at', 'updated_at',
             'title', 'content', 'image', 'image_filter', 'like_id',
-            'likes_count', 'comments_count', 'downvote_id', 'downvotes_count'
+            'likes_count', 'comments_count', 'downvote_id', 'downvotes_count',
+            'saved_id', 'saved_count',
         ]
