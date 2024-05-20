@@ -2,6 +2,10 @@ from django.db import models
 from django.contrib.auth.models import User
 from posts.models import Post
 
+"""
+custom model
+"""
+
 
 class Saved(models.Model):
     owner = models.ForeignKey(User, on_delete=models.CASCADE)
@@ -15,4 +19,3 @@ class Saved(models.Model):
 
     def __str__(self):
         return f'{self.owner} {self.post}'
-    
