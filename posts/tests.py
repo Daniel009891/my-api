@@ -18,3 +18,8 @@ class PostslistsViewTests(APITestCase):
 
     def test_logged_in_user_can_create_post(self):
         self.client.login(username='phil', password='pass')
+        response = self.client.post('/posts/', {'title': 'a title'})
+        count = Post.objects.count()
+        self.assertEqual(count, 1)
+        self.assertEqual(response.status_code, status.HTTP_201_CREATED)
+
