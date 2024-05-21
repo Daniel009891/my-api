@@ -58,8 +58,7 @@ A live version of this API will be found here: https://pooch-book-api-b940e6d370
 #### **Posts List View testing:**
 - These tests were possible thanks to the guide of the Moments walkthrough.
 
-![screenshot]()
-![screenshot]()
+![screenshot](documentation/post-list-view-tests.png)
 
 - All tests passed by using the command:
  
@@ -68,8 +67,7 @@ A live version of this API will be found here: https://pooch-book-api-b940e6d370
 #### **Posts Detail View testing:**
 - These tests were possible thanks to the guide of the Moments walkthrough.
 
-![screenshot]()
-![screenshot]()
+![screenshot](documentation/post-detail-view-tests.png)
 
 - All tests passed by using the command:
  
