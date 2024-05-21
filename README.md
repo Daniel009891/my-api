@@ -100,24 +100,16 @@ A live version of this API will be found here: https://pooch-book-api-b940e6d370
 | /profiles/:id/ | ✅ |
 | /posts/ | ✅ |
 | /posts/:id/ | ✅ |
-| /posts/create/ | ✅ |
-| /reply/ | ✅ |
-| /reply/:id | ✅ |
+| /comments/ | ✅ |
+| /comments/:id | ✅ |
 | /followers/ | ✅ |
 | /followers/:id/ | ✅ |
 | /saved/ | ✅ |
 | /saved/:id/ | ✅ |
-| /votes/ | ✅ |
-| /votes/:id/ | ✅ |
+| /likes/ | ✅ |
+| /likes/:id/ | ✅ |
 | /downvotes/ | ✅ |
 | /downvotes/:id/ | ✅ |
-
-### **Automated testing**
-Coverage testing report can be seen in images below:
-
-![screenshot]()
-![screenshot]()
-![screenshot]()
 
 
 
