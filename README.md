@@ -6,15 +6,15 @@ The site includes registration and sign-up, you can add posts, reply to posts, f
 
 This project is the last of five projects that need to be completed to receive a diploma in Software Development from The Code Institute.
 
-A live version of this API will be found here: 
+A live version of this API will be found here: https://pooch-book-api-b940e6d3707a.herokuapp.com
 
-* Deployed FrontEnd - 
+* Deployed FrontEnd - https://pooch-book-front-57849ba2db72.herokuapp.com
 
-* Deployed BackEnd API - 
+* Deployed BackEnd API - https://pooch-book-api-b940e6d3707a.herokuapp.com
 
-* BackEnd Repo - 
+* BackEnd Repo - https://github.com/Daniel009891/my-api
 
-* FrontEnd Repo - 
+* FrontEnd Repo - https://github.com/Daniel009891/pooch-book-front
 
 
 ## **Table of Contents** ##
@@ -49,8 +49,8 @@ A live version of this API will be found here:
 
 ## **User Stories**
 
-- The user stories for the creation of this API can be found here: [User Stories: Backend]()
-- The user stories for the Frontend can be found here: [User Stories: Frontend]()
+- The user stories for the creation of this API can be found here: [User Stories: Backend](https://github.com/users/Daniel009891/projects/4/views/5)
+- The user stories for the Frontend can be found here: [User Stories: Frontend](https://github.com/users/Daniel009891/projects/4/views/1)
 
 ## **Testing**
 
