@@ -1,8 +1,7 @@
 # **Poochbook-API**
 
 This is a content-sharing platform for your pets, any pet can sign up! 
-The site includes registration and sign-up, you can add posts, reply to posts, follow or unfollow a user, vote or downvote posts, and save posts for future viewing.
-
+The site includes registration and sign-up, you can add posts, comment on posts, follow or unfollow a user, like or downvote posts, and save posts for future viewing.
 
 This project is the last of five projects that need to be completed to receive a diploma in Software Development from The Code Institute.
 
@@ -25,7 +24,6 @@ A live version of this API will be found here: https://pooch-book-api-b940e6d370
     * [Unit Testing](#unit-testing)
     * [Validators](#validators)
     * [Manual Testing](#manual-testing)
-    * [Automated Testing](#automated-testing)
 * [Technologies Used](#technologies-used)
     * [Languages](#languages)
     * [Libraries, Frameworks, and Programs](#libraries-frameworks-and-programs)
