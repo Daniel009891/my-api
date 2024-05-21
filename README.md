@@ -42,7 +42,7 @@ A live version of this API will be found here: https://pooch-book-api-b940e6d370
 
 ## **Database Schema**
 
-![screenshot]()
+![screenshot](documentation/database-schema.png)
 
 
 ## **User Stories**
@@ -126,7 +126,7 @@ A live version of this API will be found here: https://pooch-book-api-b940e6d370
 - Postgre SQL
 - Pillow 
 - Django rest framework
-- QuickBaseDiagrams (for the database schema diagram)
+- Ddbdiagrams (for the database schema diagram)
 - Django Cors Headers
 
 ## **Bugs**
